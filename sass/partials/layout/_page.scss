@@ -1,0 +1,41 @@
+.l-content {
+  margin: 0 auto;
+  width: 100%;
+
+  @include query(500px) {
+    width: 85%;
+  }
+
+  @include query(800px) {
+    width: 65%;
+  }
+}
+
+.l-group {
+  @include micro-clearfix; 
+}
+
+.bg-pattern {
+  background-image: url(../img/dot_final.png);
+	background-size: 15px;
+	background-repeat: repeat;
+}
+
+.section-wrap {
+  width: 95%;
+  margin: 0 auto;
+  padding: $space-large $space-base;
+
+  @include query(600px) {
+    padding: $space-large $space-medium;
+  }
+}
+
+.section-wrap-space-out {
+  margin: $space-small;
+}
+
+.wrapper {
+  background-color: #fff;
+  position: relative;
+}
