@@ -45,6 +45,7 @@
 .main-menu-footer {
   list-style: none;
   display: inline-block;
+  padding: 0;
 
   li {
     display: inline;
@@ -55,5 +56,12 @@
     font-size: 0.8rem;
     border: none;
     padding: 0.5rem;
+  }
+}
+
+.main-menu-footer {
+
+  a:hover {
+    color: $main-color;
   }
 }

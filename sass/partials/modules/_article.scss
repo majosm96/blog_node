@@ -80,6 +80,7 @@
 
 .blog-post-recom {
   position: relative;
+  height: auto;
   flex: 1 auto;
   margin: 22px 7px;
   max-width: 300px;
@@ -95,6 +96,15 @@
   }
 }
 
+.blog-post__img:hover {
+
+  background-color: #fff;
+  border: 1px solid #03a3bd;
+
+  img {
+    filter: grayscale(0.1) opacity(0.2) saturate(8);
+  }
+}
 
 .blog-post-info {
   position: absolute;
@@ -104,3 +114,11 @@
     margin-top: 10px;
   }
 }
+
+
+.recent-posts {
+  //  @include query(1200px) {
+    margin-bottom: $space-large;
+  // }
+}
+
