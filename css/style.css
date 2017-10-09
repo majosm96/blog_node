@@ -20,8 +20,7 @@ body {
   width: 100%;
   min-height: 100%;
   margin: 0;
-  position: relative;
-  border: 2px solid #f63876; }
+  position: relative; }
 
 article,
 aside,
@@ -62,16 +61,15 @@ textarea {
   resize: none; }
 
 h1 {
-  font-size: 2rem;
-  margin: .67em 0; }
+  font-size: 2rem; }
 
 h2 {
   font-size: 1.5rem; }
 
 .h2-section {
-  background-color: #fff;
   padding: 10px;
-  display: inline-block; }
+  display: inline-block;
+  margin-bottom: 1rem; }
 
 h3,
 .h-h3 {
@@ -296,15 +294,23 @@ hr {
 .blog-post img {
   margin-bottom: 1rem; }
 
+.article-title {
+  text-align: center;
+  margin-bottom: 4.5rem; }
+
 .single-header-cat {
   margin: 1rem 0 3rem 0;
   display: block;
   text-align: center; }
 
 .article-info {
-  font-weight: 600;
   text-align: center;
   margin: 1rem; }
+  .article-info p {
+    font-weight: 600; }
+  .article-info img {
+    width: 50px;
+    border-radius: 50%; }
 
 .ad-img {
   filter: none; }
@@ -352,13 +358,56 @@ hr {
 .blog-post__img {
   background-color: #fff; }
   .blog-post__img img {
-    filter: grayscale(0.2) opacity(0.2) saturate(8); }
+    filter: grayscale(0.9) opacity(0.2); }
 
 .blog-post-info {
   position: absolute;
   margin: 30px; }
   .blog-post-info h3 {
     margin-top: 10px; }
+
+.navigation {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  z-index: 9;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  display: none; }
+
+.right-nav {
+  float: right;
+  width: 100%; }
+
+.inner-nav {
+  list-style: none;
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center; }
+  .inner-nav li {
+    padding: 2.25rem; }
+  .inner-nav a {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700; }
+
+.underline {
+  position: relative; }
+  .underline:hover, .underline:focus, .underline:active {
+    cursor: pointer; }
+    .underline:hover:after, .underline:focus:after, .underline:active:after {
+      width: 100%; }
+  .underline:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 3px;
+    background-color: #fff;
+    width: 0;
+    transition: width .4s; }
 
 .site-header {
   background-image: url(../img/dot_final.png);
@@ -372,14 +421,12 @@ hr {
   width: 45px;
   margin: 20px 2px;
   float: left;
-  border: none;
-  background: #fff; }
+  border: none; }
 
 .menu-img {
   width: 39px;
   margin: 20px 2px;
-  float: right;
-  background: #fff; }
+  float: right; }
 
 .l-content {
   margin: 0 auto;
@@ -398,12 +445,9 @@ hr {
   clear: both; }
 
 .bg-pattern {
-  background-image: url(../img/dot_final.png);
-  background-size: 15px;
-  background-repeat: repeat; }
+  background-color: #ffc750; }
 
 .section-wrap {
-  width: 95%;
   margin: 0 auto;
   padding: 3.375rem 1rem; }
   @media only screen and (min-width: 600px) {
@@ -442,7 +486,7 @@ hr {
     font-size: 1rem; }
   .social-menu-footer a:hover {
     background-color: #fff;
-    color: #f63876; }
+    color: #ffc750; }
 
 .footer-info p {
   color: #fff;

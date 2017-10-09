@@ -29,7 +29,7 @@
 
   a:hover {
     background-color: #fff;
-    color: #f63876;
+    color: $main-color;
   }
 }
 
@@ -45,7 +45,7 @@
 .main-menu-footer {
   list-style: none;
   display: inline-block;
-  
+
   li {
     display: inline;
   }
