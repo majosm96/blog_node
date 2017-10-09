@@ -1,10 +1,5 @@
-// Normalize
-// ==========================================================================
-// Correct the font size and margin on `h1` elements within `section` and
-// `article` contexts in Chrome, Firefox, and Safari.
 h1 {
   font-size: 2rem;
-  margin: .67em 0;
 }
 
 h2 {
@@ -12,9 +7,9 @@ h2 {
 }
 
 .h2-section {
-  background-color: #fff;
   padding: 10px;
   display: inline-block;
+  margin-bottom: 1rem;
 }
 
 h3,
@@ -45,12 +40,3 @@ h4 {
     text-shadow: 0 0 2px rgba(0, 0, 0, .25);
     text-transform: uppercase;
 }
-
-// // Borde sobre titulos
-// .h-bar:before {
-//   content: '';
-//   display: block;
-//   width: 3rem;
-//   height: .75rem;
-// }
-

@@ -12,17 +12,14 @@
 }
 
 .l-group {
-  @include micro-clearfix; 
+  @include micro-clearfix;
 }
 
 .bg-pattern {
-  background-image: url(../img/dot_final.png);
-	background-size: 15px;
-	background-repeat: repeat;
+  background-color: #ffc750;
 }
 
 .section-wrap {
-  width: 95%;
   margin: 0 auto;
   padding: $space-large $space-base;
 

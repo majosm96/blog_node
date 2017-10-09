@@ -4,6 +4,11 @@
   }
 }
 
+.article-title {
+  text-align: center;
+  margin-bottom: $space-x-out-large;
+}
+
 .single-header-cat {
   margin: 1rem 0 3rem 0;
   display: block;
@@ -11,9 +16,16 @@
 }
 
 .article-info {
-  font-weight: 600;
   text-align: center;
   margin: 1rem;
+
+  p {
+    font-weight: 600;
+  }
+  img {
+    width: 50px;
+    border-radius: 50%;
+  }
 }
 
 .ad-img {
@@ -75,7 +87,7 @@
   background-color: #fff;
 
   img {
-    filter: grayscale(0.2) opacity(0.2) saturate(8);
+    filter: grayscale(0.9) opacity(0.2);
   }
 }
 
@@ -88,5 +100,3 @@
     margin-top: 10px;
   }
 }
-
-

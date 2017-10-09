@@ -9,7 +9,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-  <title>Base site</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <title>Blog</title>
 </head>
 <body>
   <body>
@@ -17,14 +18,35 @@
       <div class="l-group">
         <header class="l-group bg-pattern" role="banner">
           <div class="site-nav">
-            <a href="index.html" class="logo">
-              <img src="img/logo_dark_heavy.png" alt="Logo Maria Jose Solis">
+            <a href="#index.html" class="logo">
+              <img src="img/eye.png" alt="Logo Maria Jose Solis">
             </a>
             <nav class="main-menu">
-              <img src="img/menu_dark_heavy.png" alt="Menu" class="menu-img">
-              <ul class="menu main-menu__items">
-              </ul>
+              <img src="img/menu04.png" alt="Menu" id="menu" class="menu-img">
             </nav>
+          </div>
+          <div class="navigation" id="navigation">
+
+            <div class="site-nav">
+              <a href="index.html" class="logo">
+              <img src="img/eye.png" alt="Logo Maria Jose Solis">
+            </a>
+              <nav class="main-menu" id="hideMenu">
+                <img src="img/close.png" alt="Close icon" class="menu-img menu-img__close">
+              </nav>
+            </div>
+
+            <div class="left-nav"></div>
+
+            <div class="right-nav">
+              <ul class="inner-nav">
+                <li><a class="underline" href="#">Work</a></li>
+                <li><a class="underline" href=#"">About</a></li>
+                <li><a class="underline" href="#skills">Blog</a></li>
+                <li><a class="underline" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+
           </div>
         </header>
       </div>
@@ -33,10 +55,9 @@
         <section class="l-group section-wrap">
           <article class="blog-post">
             <span class="single-header-cat"><a href="#">Development</a></span>
-            <h2 class="article-title">Girls who code on the world</h2>
+            <h1 class="article-title">Girls Who Code Books: Learn to Code and Change the World</h1>
             <img src="img/img01.jpg" alt="">
-            <p class="article-info">Written by Maria Jose Solis</p>
-            <img  class="hidden ad-img" src="img/ad01.png" alt="Google ad">
+            <img  class="ad-img" src="img/ad01.png" alt="Google ad">
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -56,7 +77,12 @@
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-            <img class="hidden ad-img" src="img/ad02.jpg" alt="Cocacola ad">
+            <div class="article-info">
+              <img src="img/majos.jpg" alt="Fotografia Autor">
+              <p>Written by Maria Jose Solis</p>
+            </div>
+
+            <img class="ad-img" src="img/ad02.jpg" alt="Cocacola ad">
 
             <div class="article-share">
               <ul class="social-icons">
@@ -112,11 +138,11 @@
                 <div class="blog-post__img">
                   <img class="saturated" src="img/blogpost_10.jpg" alt="Blog post">
                 </div>
-              </a>         
+              </a>
             </article>
 
           </div>
-          
+
         </section>
       </main>
     </div>
@@ -143,5 +169,6 @@
         <p>© 2017 MARIA JOSE SOLIS. ALL RIGHTS RESERVED.</p>
       </div>
     </footer>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
