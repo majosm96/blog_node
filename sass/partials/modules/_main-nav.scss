@@ -26,14 +26,15 @@
   }
   a {
     color: #fff;
-    font-size: 3rem;
+    font-size: 2rem;
+    border-bottom: none;
     font-weight: $font-family-base-bold-weight;
   }
 }
 
 .underline {
   position: relative;
-  
+
   &:hover,
   &:focus,
   &:active {
@@ -42,7 +43,7 @@
       width: 100%;
     }
   }
-  
+
   &:after {
     content: '';
     position: absolute;
