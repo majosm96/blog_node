@@ -3,6 +3,22 @@
   width: 112%;
   padding: 2rem 0 2rem 0;
   margin:1em calc(50% - 50vw);
+
+  @include query(1226px) {
+   width: 120%;
+  }
+
+   @include query(1300px) {
+   width: 125%;
+  }
+
+  @include query(1400px) {
+   width: 130%;
+  }
+
+  @include query(1600px) {
+   width: 170%;
+  }
 }
 
 .blog-post {

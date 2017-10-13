@@ -383,6 +383,30 @@ hr {
   margin: 1em calc(50% - 50vw);
 }
 
+@media only screen and (min-width: 1226px) {
+  .ad-img {
+    width: 120%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .ad-img {
+    width: 125%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .ad-img {
+    width: 130%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .ad-img {
+    width: 170%;
+  }
+}
+
 .blog-post img {
   margin-bottom: 1rem;
 }
