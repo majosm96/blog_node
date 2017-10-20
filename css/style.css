@@ -641,7 +641,7 @@ hr {
 }
 
 .bg-pattern {
-  background-color: #ffc750;
+  background-color: #e4e4e4;
 }
 
 .section-wrap {
@@ -696,7 +696,7 @@ hr {
 
 .social-menu-footer a:hover {
   background-color: #fff;
-  color: #ffc750;
+  color: #e4e4e4;
 }
 
 .footer-info p {
@@ -724,5 +724,5 @@ hr {
 }
 
 .main-menu-footer a:hover {
-  color: #ffc750;
+  color: #e4e4e4;
 }

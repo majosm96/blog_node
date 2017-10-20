@@ -57,18 +57,22 @@
           <article class="blog-post">
             <span class="single-header-cat"><a class="a-title" href="#">Development</a></span>
             <h1 class="article-title">Girls Who Code Books: Learn to Code and Change the World</h1>
-            <img srcset="img/img01-1024.jpg 1204w,
-                         img/img01-650.jpg 650w,
-                         img/img01-320.jpg  320w" sizes="(min-width: 36em) 33.3vw, 100vw" src="img/img01-300.jpg"
-              alt="Test image">
-
-              <img srcset="https://via.placeholder.com/800x600 800w,
-                             https://via.placeholder.com/640x480 640w" sizes="(min-width: 768px) 50vw, (min-width: 520px) 75vw, 100vw"
-                src="https://via.placeholder.com/320x240" alt="Test image">
+              <img srcset="img/img01-320.jpg 320w,
+                           img/img01-320.jpg 650w,
+                           img/test-4000.jpg 1204w" sizes="(max-width: 320px) 280px,
+                          (max-width: 480px) 650px,
+                          900px" src="mg/test-4000.jpg" alt="Girls who code">
 
             <!-- <img src="img/img01.jpg" alt=""> -->
             <!--Ad-->
-            <img  class="ad-img" src="img/ad05.jpg" alt="Google ad">
+    
+            <picture>
+              <source media="(min-width: 1000px)" srcset="img/pullAD-big.jpg">
+              <source media="(min-width: 600px)" srcset="img/pullAD-med.jpg">
+              <source media="(min-width: 320px)" srcset="img/pullAD-small.jpg">
+              <img alt="MDN" src="mg/pullAD-big.jpg">
+            </picture>
+
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -82,7 +86,11 @@
               magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <img src="img/img02.jpg" alt="Blog post imgage">
+            <img srcset="img/girls-small.jpg 320w,
+                                       img/girls-med.jpg 650w,
+                                       img/girls-big.jpg 1204w" sizes="(max-width: 320px) 280px,
+                                      (max-width: 480px) 650px,
+                                      900px" src="girls-big.jpg" alt="Girls who code">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -104,15 +112,20 @@
                 <li><a href=""><span><i class="fa fa-medium" aria-hidden="true"></i></span></a></li>
               </ul>
             </div>
-
-            <!--Ad-->
-            <img class="ad-img" src="img/ad03.jpg" alt="Google ad">
-
           </article>
         </section>
 
+        <!--Ad-->
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/pantheonAD-big.jpg">
+          <source media="(min-width: 800px)" srcset="img/pantheonAD-med.jpg">
+          <source media="(min-width: 300px)" srcset="img/pantheonAD-small.jpg">
+          <img alt="MDN" src="pantheonAD-big.jpg">
+        </picture>
+
+
         <!--Blog post recomendations-->
-        <section class="recent-posts l-group section-wrap bg-pattern group">
+        <section class="recent-posts l-group section-wrap bg-pattern">
 
           <h2 class="h2-section">Recent Blog Posts</h2>
 
